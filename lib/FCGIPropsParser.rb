@@ -1,6 +1,7 @@
 require 'ostruct'
 
 class FCGIPropsParser
+   ## This is sample comment
    def self.parse( file )
       fullpath = File.expand_path( file )
       raise "File, #{file}, doesn't exist !!" if !File.exists?( fullpath )
